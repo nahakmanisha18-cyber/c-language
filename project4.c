@@ -44,7 +44,7 @@ int main()
    int k;
     for(i = 5; i >= 1; i--) {
 
-        for(j = 1; j < i; j++) { // spaces
+        for(j = 1; j < i; j++) {  // spaces
             printf("  ");
         }
 
@@ -165,4 +165,3 @@ printf("\n");
  
 */
 }
-
