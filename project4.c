@@ -44,13 +44,11 @@ int main()
    int k;
     for(i = 5; i >= 1; i--) {
 
-        // spaces
-        for(j = 1; j < i; j++) {
+        for(j = 1; j < i; j++) { // spaces
             printf("  ");
         }
 
-        // numbers
-        for(k = i; k <= 5; k++) {
+        for(k = i; k <= 5; k++) { // numbers
             printf("%d ", k);
         }
         printf("\n");
@@ -167,3 +165,4 @@ printf("\n");
  
 */
 }
+
